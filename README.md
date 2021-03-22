@@ -1,6 +1,5 @@
 # saloroll
 [link](https://kukuruzka165.github.io/saloroll/)
-
 (works only in internet explorer)
 
 to start:
