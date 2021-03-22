@@ -5,8 +5,28 @@
   <title>Saloroll</title>
  </head>
  <body>
-  <video width="1920" height="1080" autoplay="true" loop="true">
-   <source src="./saloroll.mp4">
+    <style>
+        .unique {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        }
+        .forvidos{
+          position: absolute;
+          height: 100%;
+          display: block;
+          width: 100%;
+        }
+        </style>
+        <div class="unique">
+        <video class="forvidos" autoplay="true" loop="true" src="/saloroll.mp4"></video>
+        </div>
   </video>
+  <audio autoplay loop>
+    <source src="./salo.mp3" type="audio/mp3">
+</audio>
  </body>
 </html>
